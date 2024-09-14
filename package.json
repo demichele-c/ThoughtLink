@@ -1,0 +1,24 @@
+{
+  "name": "thoughtlink",
+  "version": "1.0.0",
+  "description": "A scalable social network API that allows users to share thoughts, connect with friends, and interact through reactions, all powered by MongoDB and Mongoose for efficient handling of unstructured data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node utils/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.0",
+    "dotenv": "^16.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Charles DeMichele",
+  "license": "ISC"
+}
