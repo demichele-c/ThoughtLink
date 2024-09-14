@@ -1,15 +1,8 @@
-// Import the Express Router
 const router = require('express').Router();
+const apiRoutes = require('./api');
 
-// Import route modules for users and thoughts
-const userRoutes = require('./userRoutes');
-const thoughtRoutes = require('./thoughtRoutes');
+router.use('/api', apiRoutes);
 
-// Use the userRoutes module for any routes starting with `/users`
-router.use('/users', userRoutes);
+router.use((req, res) => res.send('Wrong route!'));
 
-// Use the thoughtRoutes module for any routes starting with `/thoughts`
-router.use('/thoughts', thoughtRoutes);
-
-// Export the configured router
 module.exports = router;

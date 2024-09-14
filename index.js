@@ -1,7 +1,7 @@
 // Import dependencies
 const express = require('express');
 const mongoose = require('mongoose');
-const routes = require('./routes'); // Adjust path if routes are in a different folder
+const routes = require('./routes/api'); // Adjust path if routes are in a different folder
 const connection = require('./config/connection'); // Ensure this path is correct
 
 // Initialize Express app
