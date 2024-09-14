@@ -12,8 +12,6 @@ To view a detailed walkthrough of the API testing process using Insomnia, please
 
 [**Watch the Walkthrough Video**](https://drive.google.com/file/d/1eG8twlgCPD2yy5rnjvzMOsJ75T481_Ai/view)
 
-Feel free to follow along to see how the API routes are tested and validated in Insomnia.
-
 
 ## Table of Contents
 
@@ -27,7 +25,7 @@ Feel free to follow along to see how the API routes are tested and validated in 
 
 ## Installation
 
-To set up ThoughtLink, start by cloning the repository to your local machine using git clone <https://github.com/demichele-c/ThoughtLink>. Navigate to the project directory and run npm install to install all required dependencies. Ensure you have MongoDB running locally or configure your environment to connect to a remote MongoDB instance. Create a .env file in the root directory with your MongoDB connection string. You can then seed the database with sample data by running npm run seed. To start the application, use npm start or npm run dev for development with hot reloading enabled. The server will be available at http://localhost:3001, where you can interact with the API and test various routes.
+To set up ThoughtLink, start by cloning the repository to your local machine using git clone <https://github.com/demichele-c/ThoughtLink>. Navigate to the project directory and run npm install to install all required dependencies. Ensure you have MongoDB running locally.. You can then seed the database with sample data by running npm run seed. To start the application, use npm start or npm run dev for development with hot reloading enabled. The server will be available at http://localhost:3001, where you can interact with the API and test various routes.
 
 ## Usage
 
@@ -46,5 +44,4 @@ To test the API using Insomnia, first ensure that your server is running. Open I
 If you have any questions, please feel free to contact me at [demichele.charles@yahoo.com](mailto:demichele.charles@yahoo.com). You can also find more of my work at [demichele-c](https://github.com/demichele-c).
 
 ## License
-
 This project is licensed under the MIT license. Click [here](https://opensource.org/licenses/MIT) for more details.
