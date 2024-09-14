@@ -1,9 +1,9 @@
 const connection = require('../config/connection');
 const { User, Thought } = require('../models');
-const { getRandomName, getRandomUsername, getRandomThoughtText, getRandomReactions } = require('./data');
+const { getRandomName, getRandomUsername, getRandomThoughtText, getRandomReactions, getRandomArrItem } = require('./data');
 
 // Handle connection errors
-connection.on('error', (err) => err);
+connection.on('error', (err) => console.error(err));
 
 // When connection is established
 connection.once('open', async () => {
@@ -47,7 +47,7 @@ connection.once('open', async () => {
   // Loop to create 20 random thoughts
   for (let i = 0; i < 20; i++) {
     const thoughtText = getRandomThoughtText();
-    const username = getRandomArrItem(users).username;
+    const username = getRandomArrItem(users).username; // Ensure username is from created users
     const reactions = getRandomReactions(3); // Each thought will have up to 3 reactions
 
     thoughts.push({
