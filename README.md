@@ -10,7 +10,7 @@ A robust API backend designed for a social network platform, providing users wit
 
 To view a detailed walkthrough of the API testing process using Insomnia, please watch the video below:
 
-[**Watch the Walkthrough Video**](public\ThoughtLink-testing.mp4)
+[**Watch the Walkthrough Video**](https://www.youtube.com/watch?v=r_HlHH-Ams8)
 
 
 ## Table of Contents
